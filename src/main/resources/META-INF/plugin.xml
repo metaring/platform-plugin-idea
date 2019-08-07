@@ -1,0 +1,13 @@
+<idea-plugin>
+    <id>com.metaring.platform-plugin-idea</id>
+    <name><![CDATA[MetaRing Platform - Idea]]></name>
+    <description><![CDATA[Client Integration of the MetaRing Platform for the IntelliJ Idea IDE]]></description>
+    <vendor email="info@metaring.com" url="http://www.metaring.com">MetaRing s.r.l.</vendor>
+
+    <idea-version since-build="131"/>
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <backgroundPostStartupActivity implementation="com.metaring.plugin.idea.activity.MetaRingPostStartupActivity"/>
+    </extensions>
+</idea-plugin>
