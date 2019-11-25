@@ -1,12 +1,13 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.intellij' version '0.4.9'
+    id 'org.jetbrains.intellij' version '0.4.14'
 }
 
 group 'com.metaring'
 version '1.5.0'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
+targetCompatibility = 11
 
 repositories {
     mavenCentral()
